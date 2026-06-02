@@ -1,0 +1,245 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+table,th,td {
+    border: 1px solid rgb(240, 240, 240);
+    border-collapse: collapse;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+.judul {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.nav {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+    padding: 0 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: tomato;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.hero-img {
+    width: 400px;
+    border-radius: 20px;
+    
+}
+
+.keahlian{
+    padding: 30px 50px;
+    
+}
+
+.keahlian h2 {
+    margin-bottom: 15px;
+}
+
+.keahlian ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+.keahlian li {
+    background-color: #f1f1f1;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.keahlian li:hover{
+    color: tomato;
+}
+
+.pengalaman{
+    padding: 30px 50px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.pengalaman h2 {
+    margin-bottom: 15px;
+}
+
+.pengalaman ul {
+    display: flexbox;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.pengalaman li {
+    background-color: #f1f1f1;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.pengalaman li:hover{
+    color: tomato;
+}
+
+
+.card{
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gambar {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gambar-card {
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.gambar-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.gambar-card h3 {
+    margin: 10px 0;
+    color: #000000;
+}
+
+.gambar-card p {
+    padding: 0 10px 15px;
+}
+
+.cards {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.containers {
+    padding: 16px;
+}
+
+article {
+    margin-top: 20px;
+}
+
+article h1 {
+    /* margin-bottom: 15px; */
+    padding: 30px 50px;
+}
+
+article h2 {
+    /* margin-bottom: 15px; */
+    padding: 30px 50px;
+    text-align: center;
+}
+
+article p {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Foto Profil */
+.profile {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.biodata {
+    width: 800px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    padding: 30px 50px;
+}
+
+.biodata tr{
+    align-items: center;
+    padding: 500px;
+}
+
+.biodata td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.biodata td:first-child {
+    width: 180px;
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+}
